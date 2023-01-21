@@ -8,7 +8,7 @@ import { MdDownload } from "react-icons/md";
 import { Link } from "react-scroll";
 export default function Navbar() {
   const home = "< Home >";
-  const work = "< Work >";
+  const work = "< Projects >";
   const about = "< About >";
   const skills = "< Skills >";
   const certificate = "< Certificates >";
@@ -45,7 +45,7 @@ export default function Navbar() {
             </li>
             <li className="px-3 my-auto text-gray-300 text-lg font-semibold hover:text-[#62f8d7]">
               <Link activeClass="active" to="work" smooth={true} duration={800}>
-                Work
+                Projects
               </Link>
             </li>
             <li className="px-3 my-auto text-gray-300 text-lg hover:text-[#62f8d7]">

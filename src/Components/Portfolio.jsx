@@ -7,10 +7,10 @@ import WorkCard from "./WorkCard";
 export default function Portfolio() {
   return (
     <div name="work" className="w-full sm:h-screen flex items-center text-gray-300">
-      <div className="max-w-[1000px] mx-auto sm:mt-20 p-4 flex flex-col justify-center  w-full h-full">
+      <div className=" mx-auto sm:mt-20 p-12 flex flex-col justify-center  w-full h-full">
         <div className="pb-8 flex-col flex justify-center items-center">
-          <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">Work</p>
-          <p className="py-4">Check out some of my recent work</p>
+          <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">Projects</p>
+          <p className="py-4">Check out some of my recent Projects</p>
         </div>
           {/* grid */}
         <div  className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">

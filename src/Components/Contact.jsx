@@ -13,7 +13,7 @@ export default function Contact() {
             <p className="text-gray-300 my-4">
               //
               <span className="font-bold text-[#62f8d7]"> WhatsApp </span> via
-              the Social Icons or Email dylandzvenetashinga@gmail.com
+              the Social Icons or Email <span className="font-bold text-[#62f8d7]">dylandzvenetashinga@gmail.com</span> 
             </p>
           
         <form className="w-full max-w-[600px] flex flex-col gap-4  " action="https://getform.io/f/0acd65e9-4522-4804-b4f8-41005400343b" method="POST">

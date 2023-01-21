@@ -1,26 +1,37 @@
-import React from 'react';
+import React from "react";
 
 const Abouts = () => {
   return (
-    <div name='about' className='w-full h-[500px] flex flex-col justify-center items-center bg-[#0a192f] text-gray-300'>
-      <p className='text-4xl font-bold inline border-b-4 border-pink-600 my-5'>
-              About
-            </p>
-      
-     
-          <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-            <div className='sm:text-right text-center text-4xl font-bold'>
-              <p>Hi. I'm Dylan Dzvene, nice to meet you. Please take a look around.</p>
-            </div>
-            <div>
-              <p>I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. I also love solving problems
-               hence I am a LeetCoder. Fully capable of doing remote Work. </p>  
-            </div>
-          </div>
-     
+    <div
+      name="about"
+      className="w-full h-[500px] flex flex-col justify-center items-center bg-[#0a192f] text-gray-300"
+    >
+      <p className="text-4xl font-bold inline border-b-4 border-pink-600 my-5">
+        About
+      </p>
+
+      <div className="p-24 md:p-16 w-full grid sm:grid-cols-2 gap-8 px-4">
+        <div className=" text-center text-4xl font-bold">
+          <p>
+            Hi. I'm Dylan Dzvene, nice to meet you. Please take a look around.
+          </p>
+        </div>
+        <div>
+          
+          <p>
+            I specialize in developing mobile responsive front-end UI apps that
+            connect with APIs and other backend technologies. I'm also good in
+            developing server side application using <span className="font-bold text-[#62f8d7]">JAVA AND SPRING BOOT</span> . 
+            Though I am most proficient designing front-end applications with
+            HTML, CSS,<span className="font-bold text-pink-600">JavaScript, TypeScript and React</span> , I am a quick learner
+            who can quickly take up new tech stacks as needed. Being a great
+            developer, in my opinion, is about finding the most optimum solution
+            to a problem rather than employing a specific language. In <span className="font-bold text-[#62f8d7]"> 2018</span>, I
+            began working in <span className="font-bold text-[#62f8d7]">web development and digital marketing</span> , Optimizing
+            WordPress website for Search engine ranking(SEO). {" "}
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
