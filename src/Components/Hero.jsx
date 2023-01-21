@@ -29,7 +29,7 @@ export default function Hero() {
               strings={[
                 ' <strong className="text-[#62f8d7]">a Full stack Web Developer</strong>',
                 " a Master of Front-End ",
-                " Good in Java and JavaScript",
+                " Good at Java and JavaScript",
               ]}
               typeSpeed={40}
               backSpeed={100}
