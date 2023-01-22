@@ -19,9 +19,9 @@ export default function Contact() {
         <form className="w-full max-w-[600px] flex flex-col gap-4  " action="https://getform.io/f/0acd65e9-4522-4804-b4f8-41005400343b" method="POST">
     
           <input type="text" className="flex rounded-lg   pl-4 py-3" placeholder="Name" name="name" />
-          <input type="text" className="py-3  rounded-lg  pl-4" placeholder="Email" name="email" />
-          <textarea name="message" className=" rounded-lg  pl-4 py-3" id="" placeholder="Message" cols="30" rows="7"></textarea>
-          <button className=" border-2 hover:text-white text-lg border-[#62f8d7] rounded-sm py-2 px-10 hover:scale-105 duration-300 text-[#62f8d7] hover:bg-pink-600 flex justify-center mx-auto">Get in Touch</button>
+          <input type="text" className="py-3 mt-3  rounded-lg  pl-4" placeholder="Email" name="email" />
+          <textarea name="message" className=" rounded-lg mt-3  pl-4 py-3" id="" placeholder="Message" cols="30" rows="7"></textarea>
+          <button className=" border-2 hover:text-white text-lg border-[#62f8d7] rounded-sm mt-3 py-2 px-10 hover:scale-105 duration-300 text-[#62f8d7] hover:bg-pink-600 flex justify-center mx-auto">Get in Touch</button>
         </form>
 
        

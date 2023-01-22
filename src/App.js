@@ -8,7 +8,7 @@ import Abouts from "./Components/Abouts";
 import Portfolio from "./Components/Portfolio";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
-
+import ProjectOverview from "./Components/ProjectOverview";
 function App() {
   return (
     <div>
@@ -22,6 +22,7 @@ function App() {
       <Certificates />
       
       <Contact />
+      <ProjectOverview/>
       <Footer />
     </div>
   );

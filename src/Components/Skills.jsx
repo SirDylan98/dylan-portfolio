@@ -28,7 +28,7 @@ const Skills = () => {
       className="w-full sm:h-screen flex items-center bg-[#0a192f] mt-10 text-gray-300"
     >
       {/* Container */}
-      <div className=" p-12 mx-auto mt-10  flex flex-col items-center justify-center   w-full h-full">
+      <div className=" p-4 md:p-12 mx-auto mt-10  flex flex-col items-center justify-center   w-full h-full">
         <div className=" flex flex-col items-center justify-center ">
           <p className="text-4xl font-bold inline border-b-4 border-pink-600 ">
             Skills

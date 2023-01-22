@@ -6,10 +6,10 @@ import {BsCodeSquare} from 'react-icons/bs'
 import WorkCard from "./WorkCard";
 export default function Portfolio() {
   return (
-    <div name="work" className="w-full sm:h-screen flex items-center text-gray-300">
-      <div className=" mx-auto sm:mt-20 p-12 flex flex-col justify-center  w-full h-full">
+    <div name="work" className="w-full mt:20 sm:h-screen flex items-center text-gray-300">
+      <div className=" mx-auto mt:20 sm:mt-20 p-4 md:p-12 flex flex-col justify-center  w-full h-full">
         <div className="pb-8 flex-col flex justify-center items-center">
-          <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">Projects</p>
+          <p className="text-4xl mt-36 font-bold inline border-b-4 text-gray-300 border-pink-600">Projects</p>
           <p className="py-4">Check out some of my recent Projects</p>
         </div>
           {/* grid */}

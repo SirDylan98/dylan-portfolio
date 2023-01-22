@@ -21,7 +21,7 @@ export default function Certificates() {
             <img
               src={algocert}
               alt=""
-              className="rounded-lg  flex h-full  my-auto  items-center border-4  border-[#0a192f] "
+              className="rounded-lg  flex h-[300px] md:h-full  my-auto  items-center border-4  border-[#0a192f] "
             />
             <div className="flex justify-center py-2 items-center">
             <h1 className="mr-3 text-gray-300">Algorithmic Toolbox</h1>
@@ -37,7 +37,7 @@ export default function Certificates() {
             <img
               src={reactcert}
               alt=""
-              className="rounded-lg  flex h-full  my-auto  items-center border-4  border-[#0a192f] "
+              className="rounded-lg  flex h-[300px] md:h-full  my-auto  items-center border-4  border-[#0a192f] "
             />
             <div className="flex justify-center py-2 items-center">
             <h1 className="mr-3 text-gray-300">ReactJS Fundamentals</h1>
@@ -53,7 +53,7 @@ export default function Certificates() {
             <img
               src={javacert}
               alt=""
-              className="rounded-lg  flex h-full  my-auto  items-center border-4  border-[#0a192f] "
+              className="rounded-lg  flex h-[300px] md:h-full  my-auto  items-center border-4  border-[#0a192f] "
             />
             <div className="flex justify-center py-2 items-center">
             <h1 className="mr-3 text-gray-300">Java OOP Masterclass</h1>
