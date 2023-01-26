@@ -5,6 +5,7 @@ import { RiMenu4Fill } from "react-icons/ri";
 import { FaRegWindowClose } from "react-icons/fa";
 import { TfiClose } from "react-icons/tfi";
 import { MdDownload } from "react-icons/md";
+
 import { Link } from "react-scroll";
 export default function Navbar() {
   const home = "< Home >";
@@ -34,12 +35,7 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="px-3 my-auto text-gray-300 text-lg hover:text-[#62f8d7]">
-              <Link
-                activeClass="active"
-                to="about"
-                smooth={true}
-                duration={800}
-              >
+              <Link to="about" smooth={true} duration={800}>
                 About
               </Link>
             </li>
@@ -49,33 +45,18 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="px-3 my-auto text-gray-300 text-lg hover:text-[#62f8d7]">
-              <Link
-                activeClass="active"
-                to="skills"
-                smooth={true}
-                duration={800}
-              >
+              <Link to="skills" smooth={true} duration={800}>
                 Skills
               </Link>
             </li>
             <li className="px-3 my-auto text-gray-300 text-lg hover:text-[#62f8d7]">
-              <Link
-                activeClass="active"
-                to="certificates"
-                smooth={true}
-                duration={800}
-              >
+              <Link to="certificates" smooth={true} duration={800}>
                 Certificates
               </Link>
             </li>
 
             <li className="px-3 my-auto text-gray-300 text-lg hover:text-[#62f8d7]">
-              <Link
-                activeClass="active"
-                to="contact"
-                smooth={true}
-                duration={500}
-              >
+              <Link to="contact" smooth={true} duration={500}>
                 Contact
               </Link>
             </li>
@@ -110,53 +91,28 @@ export default function Navbar() {
         >
           <li className=" my-8 text-gray-300 text-2xl">
             {" "}
-            <Link
-              onClick={handleNav}
-              activeClass="active"
-              to="home"
-              smooth={true}
-              duration={800}
-            >
+            <Link onClick={handleNav} to="home" smooth={true} duration={800}>
               {home}
             </Link>
           </li>
           <li className=" my-8 text-gray-300 text-lg">
             {" "}
-            <Link
-              activeClass="active"
-              to="about"
-              onClick={handleNav}
-              smooth={true}
-              duration={800}
-            >
+            <Link to="about" onClick={handleNav} smooth={true} duration={800}>
               {about}
             </Link>
           </li>
           <li className=" my-8  text-lg font-semibold text-[#62f8d7]">
-            <Link
-              onClick={handleNav}
-              activeClass="active"
-              to="work"
-              smooth={true}
-              duration={800}
-            >
+            <Link onClick={handleNav} to="work" smooth={true} duration={800}>
               {work}
             </Link>
           </li>
           <li className=" my-8 text-gray-300 text-lg">
-            <Link
-              activeClass="active"
-              to="skills"
-              onClick={handleNav}
-              smooth={true}
-              duration={800}
-            >
+            <Link to="skills" onClick={handleNav} smooth={true} duration={800}>
               {skills}
             </Link>
           </li>
           <li className=" my-8 text-gray-300 text-lg">
             <Link
-              activeClass="active"
               to="certificates"
               onClick={handleNav}
               smooth={true}
@@ -166,15 +122,10 @@ export default function Navbar() {
             </Link>
           </li>
           <li className=" my-8 text-gray-300 text-lg">
-          <Link
-              activeClass="active"
-              to="contact"
-              onClick={handleNav}
-              smooth={true}
-              duration={800}
-            >
-            {contact}
-            </Link></li>
+            <Link to="contact" onClick={handleNav} smooth={true} duration={800}>
+              {contact}
+            </Link>
+          </li>
           <button className="border-2 border-[#62f8d7] px-10 flex items-center text-gray-300 py-2 rounded-full">
             Resume <MdDownload size={20} className="text-[#62f8d7]" />
           </button>
