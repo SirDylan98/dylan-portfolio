@@ -1,6 +1,7 @@
 import React from "react";
 import policeapp from "../Assets/projects/policeproject.PNG";
 import netflixapp from "../Assets/projects/netflixproject.PNG";
+import zumiaapp from "../Assets/projects/zumiaproject.PNG";
 import cryptoapp from "../Assets/projects/cryptoproject.PNG";
 import work2 from "../Assets/projects/realestate.jpg";
 import { FaExternalLinkAlt } from "react-icons/fa";
@@ -11,8 +12,8 @@ export default function Portfolio() {
   const descpoliceapp =
     " The main aim of this systems is to use facial recognition technologies in cctv live feeds and then try to recognize wanted personals or criminals. I used python to run face recognition via web-cam as a cctv simulator. The location of the spotted personal is the displayed on a web application which is this application. From here the police officer can the click on the marker to see the details of the suspects and also see the nearest Agent to the suspect location. This app demonstrated my ability to intergated 2 different technologies, my API skills and Vast KNOWLEDGE OF TYPESCRIPT and JAVASCRIPT LIBRARIES. ";
   const desccrypto="This is a watchlist dashboard for Crypto currencies, the appp allows you to search a currency and also save to your watchlist. The app uses Firebase Auth for Authentication and the data is being fetched from COIN GECKO API.  This application demonstrates my design skills as the app is 100% mobile responsive facilitated by media query. The app also has a DARK AND LIGHT THEME  demonstrating my React Context API knowlegde.";
-  const descnetflix="this is a clone of a popular movies streaming web application NetFlix. This is application is only Front-End, with plans of build the back end using Spring Boot in the coming weeks. This application Uses Lazy loading making this web application loads 20% faster. This project demonstrates my design skills and my CSS skills"  
-  
+  const descnetflix="This is a clone of a popular movies streaming web application NetFlix. This is application is only Front-End, with plans of build the back end using Spring Boot in the coming weeks. This application Uses Lazy loading making this web application loads 20% faster. This project demonstrates my design skills and my CSS skills"  
+  const desczumia ="This is a food delivery  web application at my local university where students can order their meals online and either choose to pick up the meal or wait for a delivery. This project is using react for front end and spring boot for back end functionalities. The Project is still curently in developement"
   
   const datapolice = {
     image: policeapp,
@@ -69,21 +70,21 @@ export default function Portfolio() {
     },
   };
   const data = {
-    image: netflixapp,
+    image: zumiaapp,
     title: {
-      name: "Netflix",
-      name2: "Rebuild",
+      name: "Zumia Food",
+      name2: "Delivery App",
     },
 
-    overview: "Movie Streaming App",
+    overview: "Food Delivery Application",
     description:descnetflix,
-    demolink: "https://netflix-app-5a239.web.app",
-    codelink: "https://github.com/SirDylan98/netflix-clone-dylan",
+    demolink: "https://zumia-app.web.app/",
+    codelink: "https://github.com/SirDylan98/zumia-food-delivery-app",
     skillstack: {
       skill1: "React",
       skill2: "JavaScript",
-      skill3: "HTML",
-      skill4: " Tailwind CSS",
+      skill3: "Spring Boot",
+      skill4: "Java",
     },
   };
   return (
