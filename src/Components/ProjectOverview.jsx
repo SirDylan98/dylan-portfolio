@@ -1,13 +1,6 @@
 import React from "react";
-import {
-  AiOutlineDeploymentUnit,
-  AiOutlineMenu,
-  AiOutlineMenuFold,
-} from "react-icons/ai";
-import { BsFillDice3Fill } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { overview } from "./WorkCard";
-import Footer from "./Footer";
 export default function ProjectOverview() {
   return (
 

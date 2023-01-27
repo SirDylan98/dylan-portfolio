@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 import logo from "../Assets/DD.png";
-import { BiMenuAltRight } from "react-icons/bi";
 import { RiMenu4Fill } from "react-icons/ri";
-import { FaRegWindowClose } from "react-icons/fa";
 import { TfiClose } from "react-icons/tfi";
-import { MdDownload } from "react-icons/md";
 
 import { Link } from "react-scroll";
 export default function Navbar() {
