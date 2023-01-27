@@ -59,10 +59,10 @@ export default function ProjectOverview() {
         <p className="text-sm md:text-lg">
           {overview.description}
         </p>
-        <a href={overview.demolink} target="_blank" className="rounded-full border px-5 py-2  border-pink-600 text-[#62fe82]">Demo</a>
-        <a href={overview.codelink} target="_blank" className="rounded-full border px-5 py-2 ml-2 border-pink-600 text-[#62fe82]">Code</a>
+        <a href={overview.demolink} target="_blank" className="rounded-full border-2 hover:scale-100 hover:bg-[#62f8d7] hover:text-black hover:font-semibold px-5 py-2  border-pink-600 text-[#62f8d7]">Demo</a>
+        <a href={overview.codelink} target="_blank" className="rounded-full border-2 hover:scale-100 hover:bg-[#62f8d7] hover:text-black hover:font-semibold px-5 py-2 ml-2 border-pink-600 text-[#62f8d7]">Code</a>
         <Link to='/'>
-        <button className="rounded-full border px-5 py-2 ml-2 border-pink-600 text-[#62fe82]">Back</button>
+        <button className="rounded-full border-2 px-5 py-2 ml-2 border-pink-600 text-[#62f8d7]">Back</button>
         </Link>
         
        

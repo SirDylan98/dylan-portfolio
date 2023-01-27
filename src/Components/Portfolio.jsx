@@ -14,7 +14,9 @@ export default function Portfolio() {
   const desccrypto="This is a watchlist dashboard for Crypto currencies, the appp allows you to search a currency and also save to your watchlist. The app uses Firebase Auth for Authentication and the data is being fetched from COIN GECKO API.  This application demonstrates my design skills as the app is 100% mobile responsive facilitated by media query. The app also has a DARK AND LIGHT THEME  demonstrating my React Context API knowlegde.";
   const descnetflix="This is a clone of a popular movies streaming web application NetFlix. This is application is only Front-End, with plans of build the back end using Spring Boot in the coming weeks. This application Uses Lazy loading making this web application loads 20% faster. This project demonstrates my design skills and my CSS skills"  
   const desczumia ="This is a food delivery  web application at my local university where students can order their meals online and either choose to pick up the meal or wait for a delivery. This project is using react for front end and spring boot for back end functionalities. The Project is still curently in developement"
-  
+  const descping="This is a  ping pong game still in development. Technologies used are Java and Java FX. This project demonstrates my data structures and algorithms expertise "
+  const descmusic = "This is a modern lookin music player just like spotify. It include features like week top 100 songs, trending songs, lyrics of songs and account creation."
+
   const datapolice = {
     image: policeapp,
     title: {
@@ -69,7 +71,7 @@ export default function Portfolio() {
       skill4: " Tailwind CSS",
     },
   };
-  const data = {
+  const datazumia = {
     image: zumiaapp,
     title: {
       name: "Zumia Food",
@@ -77,9 +79,45 @@ export default function Portfolio() {
     },
 
     overview: "Food Delivery Application",
-    description:descnetflix,
+    description:desczumia,
     demolink: "https://zumia-app.web.app/",
     codelink: "https://github.com/SirDylan98/zumia-food-delivery-app",
+    skillstack: {
+      skill1: "React",
+      skill2: "JavaScript",
+      skill3: "Spring Boot",
+      skill4: "Java",
+    },
+  };
+  const dataping = {
+    image: "https://image.winudf.com/v2/image1/Y29tLm9tZWdhc2Nvb3AucG9uZ19zY3JlZW5fMl8xNTYyNzc1OTc4XzA3Mg/screen-2.jpg?fakeurl=1&type=.webp",
+    title: {
+      name: "Java Ping Pong ",
+      name2: "Game",
+    },
+
+    overview: "Modern version of ping pong",
+    description:descping,
+    demolink: "",
+    codelink: "https://github.com/SirDylan98/",
+    skillstack: {
+      skill1: "Java",
+      skill2: "Maven",
+      skill3: "Java FX",
+      skill4: "Data Structures",
+    },
+  };
+  const dataspotify = {
+    image: "https://i.pcmag.com/imagery/reviews/042FW7hC9vrGnoDea9LArXI-32.fit_lim.size_1050x.png",
+    title: {
+      name: "Online Modern",
+      name2: "Music Player",
+    },
+
+    overview: "Music player like spotify",
+    description:descmusic,
+    demolink: "",
+    codelink: "https://github.com/SirDylan98/spotifyclone-frontend",
     skillstack: {
       skill1: "React",
       skill2: "JavaScript",
@@ -106,9 +144,9 @@ export default function Portfolio() {
           <WorkCard data={datapolice} />
           <WorkCard data={datacryto} />
           <WorkCard data={dataneflix} />
-          <WorkCard data={data} />
-          <WorkCard data={data} />
-          <WorkCard data={data} />
+          <WorkCard data={datazumia} />
+          <WorkCard data={dataspotify} />
+          <WorkCard data={dataping} />
         </div>
       </div>
     </div>

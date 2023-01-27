@@ -60,9 +60,9 @@ export default function Navbar() {
                 Contact
               </Link>
             </li>
-            <button className="border-2 hover:bg-pink-600 hover:text-gray-300 duration-500 border-[#62f8d7] px-10 flex items-center text-gray-300 py-2 rounded-full">
+            <a href="https://drive.google.com/file/d/1UBYBE_yhi4OYo_FyUYA4MA7WwllVV0qj/view?usp=sharing" target="_blank" className="border-2 hover:bg-pink-600 hover:text-gray-300 duration-500 border-[#62f8d7] px-10 flex items-center text-gray-300 py-2 rounded-full">
               Resume <MdDownload size={20} className="text-[#62f8d7]" />{" "}
-            </button>
+            </a>
           </ul>
         </div>
         {/* <RiMenu4Fill size={30} className="rounded-full text-[#62f8d7] absolute right-9 top-10 sm:hidden" /> */}
@@ -126,9 +126,9 @@ export default function Navbar() {
               {contact}
             </Link>
           </li>
-          <button className="border-2 border-[#62f8d7] px-10 flex items-center text-gray-300 py-2 rounded-full">
+          <a href="https://drive.google.com/file/d/1UBYBE_yhi4OYo_FyUYA4MA7WwllVV0qj/view?usp=sharing" target='_blank' className="border-2 border-[#62f8d7] px-10 flex items-center text-gray-300 py-2 rounded-full">
             Resume <MdDownload size={20} className="text-[#62f8d7]" />
-          </button>
+          </a>
         </ul>
       </div>
     </div>
