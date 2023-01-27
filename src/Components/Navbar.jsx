@@ -61,7 +61,7 @@ export default function Navbar() {
               </Link>
             </li>
             <a href="https://drive.google.com/file/d/1UBYBE_yhi4OYo_FyUYA4MA7WwllVV0qj/view?usp=sharing" target="_blank" className="border-2 hover:bg-pink-600 hover:text-gray-300 duration-500 border-[#62f8d7] px-10 flex items-center text-gray-300 py-2 rounded-full">
-              Resume <MdDownload size={20} className="text-[#62f8d7]" />{" "}
+              Resume 
             </a>
           </ul>
         </div>
@@ -127,7 +127,7 @@ export default function Navbar() {
             </Link>
           </li>
           <a href="https://drive.google.com/file/d/1UBYBE_yhi4OYo_FyUYA4MA7WwllVV0qj/view?usp=sharing" target='_blank' className="border-2 border-[#62f8d7] px-10 flex items-center text-gray-300 py-2 rounded-full">
-            Resume <MdDownload size={20} className="text-[#62f8d7]" />
+            Resume 
           </a>
         </ul>
       </div>
