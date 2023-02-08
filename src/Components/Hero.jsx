@@ -9,6 +9,7 @@ import { SiLeetcode } from "react-icons/si";
 import { AiOutlineMail } from "react-icons/ai";
 import Typed from "react-typed";
 import { Link } from "react-scroll";
+import {motion} from 'framer-motion'
 
 export default function Hero() {
   return (
@@ -44,28 +45,43 @@ export default function Hero() {
             with programming is my strongest attribute.{" "}
           </p>
           <div className="flex flex-col mt-4">
-            <div className="flex justify-center items-center">
+            <motion.div className="flex justify-center items-center"
+           
+              whileHover={{}}
+              transition={{}}
+            >
               <Link activeClass="active" to="work" smooth={true} duration={800}>
                 <a
                   href="work"
                   className="bg-[#62f8d7] group rounded-full font-bold my-auto text-xl px-8 flex py-3"
                 >
-                  My Projects{" "}
-                  <span className="group-hover:rotate-90 duration-500">
+                  My Work{" "}
+                  <motion.span className="group-hover:rotate-90 duration-500"
+                   animate={{scale:1.3}}
+                   transition={{duration:1,delay:0,repeat:Infinity}}>
                     <BsArrowRightCircleFill
+                   
                       size={30}
                       className="my-auto ml-3"
                     />
-                  </span>{" "}
+                  </motion.span>{" "}
                 </a>
               </Link>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
       <div className=" fixed flex-col z-10 left-0 top-[38%] hidden md:flex">
-        <ul>
-          <li className="w-[160px] h-[60] ml-[-100px] hover:ml-[-1px] duration-300 my-2">
+        <motion.ul
+        initial={{x:-200}}
+        animate={{x:0}}
+        transition={{duration:1, type:"spring" , stiffness:100}}
+        >
+          <motion.li className="w-[160px] h-[60] ml-[-100px] hover:ml-[-1px] duration-300 my-2"
+          initial={{}}
+          animate={{}}
+          transition={{}}
+          >
             <a
               href="https://github.com/SirDylan98"
               target="_blank"
@@ -74,7 +90,7 @@ export default function Hero() {
               GitHub
               <BsGithub size={30} />
             </a>
-          </li>
+          </motion.li>
           <li className="w-[160px] h-[60] ml-[-100px] hover:ml-[-1px] duration-300 my-2">
             <a
               href="https://www.linkedin.com/in/dylan-dzvene-004b0615a/"
@@ -115,7 +131,7 @@ export default function Hero() {
               <BsWhatsapp size={30} />{" "}
             </a>
           </li>
-        </ul>
+        </motion.ul>
       </div>
     </div>
   );

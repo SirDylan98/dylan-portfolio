@@ -1,8 +1,7 @@
 import React, { useEffect } from "react";
-import work from "../Assets/projects/workImg.jpeg";
-import work2 from "../Assets/projects/realestate.jpg";
+
 import { FaExternalLinkAlt } from "react-icons/fa";
-import { BsCodeSquare } from "react-icons/bs";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";

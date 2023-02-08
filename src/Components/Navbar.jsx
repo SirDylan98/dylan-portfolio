@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import logo from "../Assets/DD.png";
+import logo from "../Assets/mylogoo.png";
 import { RiMenu4Fill } from "react-icons/ri";
 import { TfiClose } from "react-icons/tfi";
-
+import {motion} from 'framer-motion';
 import { Link } from "react-scroll";
 export default function Navbar() {
   const home = "< Home >";
@@ -19,7 +19,11 @@ export default function Navbar() {
   };
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between z-40 items-center bg-[#0a192f] text-black ">
+    <motion.div className="fixed w-full h-[80px] flex justify-between z-40 items-center bg-[#0a192f] text-black "
+    initial={{y:'-100vh'}}
+    animate={{y:0}}
+    transition={{duration:1, delay:0, type:"spring", stiffness:50}}
+    >
       <div className="">
         <img src={logo} alt="dfsdf" className="w-32 h-24 pl-5" />
       </div>
@@ -128,6 +132,6 @@ export default function Navbar() {
           </a>
         </ul>
       </div>
-    </div>
+    </motion.div>
   );
 }

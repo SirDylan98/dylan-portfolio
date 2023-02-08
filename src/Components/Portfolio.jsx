@@ -8,12 +8,12 @@ import WorkCard from "./WorkCard";
 export default function Portfolio() {
  
   const descpoliceapp =
-    " The main aim of this systems is to use facial recognition technologies in cctv live feeds and then try to recognize wanted personals or criminals. I used python to run face recognition via web-cam as a cctv simulator. The location of the spotted personal is the displayed on a web application which is this application. From here the police officer can the click on the marker to see the details of the suspects and also see the nearest Agent to the suspect location. This app demonstrated my ability to intergated 2 different technologies, my API skills and Vast KNOWLEDGE OF TYPESCRIPT and JAVASCRIPT LIBRARIES. ";
-  const desccrypto="This is a watchlist dashboard for Crypto currencies, the appp allows you to search a currency and also save to your watchlist. The app uses Firebase Auth for Authentication and the data is being fetched from COIN GECKO API.  This application demonstrates my design skills as the app is 100% mobile responsive facilitated by media query. The app also has a DARK AND LIGHT THEME  demonstrating my React Context API knowlegde.";
-  const descnetflix="This is a clone of a popular movies streaming web application NetFlix. This is application is only Front-End, with plans of build the back end using Spring Boot in the coming weeks. This application Uses Lazy loading making this web application loads 20% faster. This project demonstrates my design skills and my CSS skills"  
-  const desczumia ="This is a food delivery  web application at my local university where students can order their meals online and either choose to pick up the meal or wait for a delivery. This project is using react for front end and spring boot for back end functionalities. The Project is still curently in developement"
-  const descping="This is a  ping pong game still in development. Technologies used are Java and Java FX. This project demonstrates my data structures and algorithms expertise. NOTE THAT THIS PROJECT IS STILL UNDER DEVELOPEMENT "
-  const descmusic = "This is a modern lookin music player just like spotify. It include features like week top 100 songs, trending songs, lyrics of songs and account creation. NOTE THAT THIS PROJECT IS STILL UNDER DEVELOPEMENT"
+    " The main aim of this system is to use facial recognition technologies in CCTV live feeds and then try to recognize wanted personals or criminals. I used python to run face recognition via web-cam as a CCTV simulator. The location of the spotted personnel is displayed on a web application which is this application. From here the police officer can click on the marker to see the details of the suspects and also see the nearest Agent to the suspect location. This app demonstrated my ability to integrate 2 different technologies, my API skills, and Vast KNOWLEDGE OF TYPESCRIPT and JAVASCRIPT LIBRARIES. ";
+  const desccrypto="This is a watchlist dashboard for Cryptocurrencies, the app allows you to search for a coin and also save it to your watchlist. The app uses Firebase Auth for Authentication ,and the data is being fetched from COIN GECKO API. This application demonstrates my design skills as the app is 100% mobile responsive and facilitated by a media query. The app also has a DARK AND LIGHT THEME  demonstrating my React Context API knowledge.";
+  const descnetflix="This is a web Application for watching trailers of upcoming movies and series. This application is only Front-End, with plans of build the back end using Spring Boot in the coming weeks. This application Uses Lazy loading making this web application loads 20% faster. This project demonstrates my design skills and my CSS skills"  
+  const desczumia ="This is a food delivery web application at my local university where students can order their meals online and either choose to pick up the meal or wait for a delivery. The project uses react for front-end and spring boot for back-end functionalities. The Project is still currently in development."
+  const descping="This is a ping-pong game still in development. The technologies used are Java and Java FX. This project demonstrates my data structures and algorithms expertise. NOTE THAT THIS PROJECT IS STILL UNDER DEVELOPMENT "
+  const descmusic = "This is a modern-looking music player  like Spotify. It includes features like week top 100 songs, trending songs, lyrics of songs, and account creation. NOTE THAT THIS PROJECT IS STILL UNDER DEVELOPMENT"
 
   const datapolice = {
     image: policeapp,
@@ -54,8 +54,8 @@ export default function Portfolio() {
   const dataneflix = {
     image: netflixapp,
     title: {
-      name: "Netflix",
-      name2: "Rebuild",
+      name: "Movie TrailerHub",
+      name2: "Latest",
     },
 
     overview: "Movie Streaming App",

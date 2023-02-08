@@ -1,13 +1,11 @@
 import React, { useEffect } from "react";
 
-import HTML from "../Assets/html.png";
+
 import CSS from "../Assets/css.png";
 import JavaScript from "../Assets/javascript.png";
 import ReactImg from "../Assets/react.png";
-import Node from "../Assets/node.png";
-import FireBase from "../Assets/firebase.png";
-import GitHub from "../Assets/github.png";
-import Tailwind from "../Assets/tailwind.png";
+
+
 import Mongo from "../Assets/mongo.png";
 import java from "../Assets/javalogo.png";
 import typescript from "../Assets/typescript.png";
@@ -16,7 +14,7 @@ import aws from "../Assets/aws.png";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { FaJava, FaPython, FaReact, FaEnvira, FaAws } from "react-icons/fa";
+
 
 const Skills = () => {
   useEffect(() => {
