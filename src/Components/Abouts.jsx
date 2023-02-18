@@ -5,8 +5,8 @@ const Abouts = () => {
     <motion.div
       name="about"
       className="w-full h-[500px] mt-36 sm:mt-10 flex flex-col justify-center items-center bg-[#0a192f] text-gray-300"
-      initial={{x:-100}}
-      whileInView={{x:0}}
+      initial={{opacity:0}}
+      whileInView={{opacity:100}}
       transition={{duration:1,delay:0,type:"spring" ,stiffness:50}}
     >
       <p className="text-4xl font-bold inline border-b-4 border-pink-600 my-5">
