@@ -3,6 +3,7 @@ import policeapp from "../Assets/projects/policeproject.PNG";
 import netflixapp from "../Assets/projects/netflixproject.PNG";
 import zumiaapp from "../Assets/projects/zumiaproject.PNG";
 import cryptoapp from "../Assets/projects/cryptoproject.PNG";
+import nasaapp from '../Assets/projects/nasamedialibrary.PNG'
 
 import WorkCard from "./WorkCard";
 export default function Portfolio() {
@@ -13,8 +14,8 @@ export default function Portfolio() {
   const descnetflix="This is a web Application for watching trailers of upcoming movies and series. This application is only Front-End, with plans of build the back end using Spring Boot in the coming weeks. This application Uses Lazy loading making this web application loads 20% faster. This project demonstrates my design skills and my CSS skills"  
   const desczumia ="This is a food delivery web application at my local university where students can order their meals online and either choose to pick up the meal or wait for a delivery. The project uses react for front-end and spring boot for back-end functionalities. The Project is still currently in development."
   const descping="This is a ping-pong game still in development. The technologies used are Java and Java FX. This project demonstrates my data structures and algorithms expertise. NOTE THAT THIS PROJECT IS STILL UNDER DEVELOPMENT "
-  const descmusic = "This is a modern-looking music player  like Spotify. It includes features like week top 100 songs, trending songs, lyrics of songs, and account creation. NOTE THAT THIS PROJECT IS STILL UNDER DEVELOPMENT"
-
+  const descnasa = "This is Nasa search engine, where you can search Nasa related events and pictures. This projects demonstrates my abilities to work with complex APIs. These application is 100% mobile responsive and enhances UX. The project uses React for front-end and NASA OPEN API. "
+  
   const datapolice = {
     image: policeapp,
     title: {
@@ -105,22 +106,22 @@ export default function Portfolio() {
       skill4: "Data Structures",
     },
   };
-  const dataspotify = {
-    image: "https://i.pcmag.com/imagery/reviews/042FW7hC9vrGnoDea9LArXI-32.fit_lim.size_1050x.png",
+  const datanasa = {
+    image: nasaapp,
     title: {
-      name: "Online Modern",
-      name2: "Music Player",
+      name: "Nasa Media",
+      name2: "Library",
     },
 
-    overview: "Music player like spotify",
-    description:descmusic,
-    demolink: "",
-    codelink: "https://github.com/SirDylan98/spotifyclone-frontend",
+    overview: "Nasa Search Engine",
+    description:descnasa,
+    demolink: "https://nasa-media-library.web.app",
+    codelink: "https://github.com/SirDylan98/nasa-media-app",
     skillstack: {
       skill1: "React",
       skill2: "JavaScript",
-      skill3: "Spring Boot",
-      skill4: "Java",
+      skill3: "Tailwind CSS",
+      skill4: "Rest API",
     },
   };
   return (
@@ -139,11 +140,11 @@ export default function Portfolio() {
         <div className="grid  md:grid-cols-3 gap-4">
           {/* card item */}
 
+          <WorkCard data={datanasa} />
           <WorkCard data={datapolice} />
           <WorkCard data={datacryto} />
           <WorkCard data={dataneflix} />
           <WorkCard data={datazumia} />
-          <WorkCard data={dataspotify} />
           <WorkCard data={dataping} />
         </div>
       </div>
