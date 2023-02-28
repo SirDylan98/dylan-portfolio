@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import {CurrProject}  from '../Context/CurrentProject'
+import { CurrProject } from "../Context/CurrentProject";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 import AOS from "aos";
@@ -7,31 +7,11 @@ import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-export let overview = {
-  image: "",
-  title:{name:"",name2:""},
-  demolink: "",
-  codelink: "",
-  description: "",
-  skillstack: { skill1: "", skill2: "", skill3: "", skill4: "" },
-};
-
 export default function WorkCard(props) {
-  const {updateSelectedProject}=CurrProject()
-  console.log('this is the props Data ',props.data)
-  const [imggg, setImggg] = useState({   image: "",
-  demolink: "",
-  codelink: "",
-  title:{name:"",name2:""},
-  description: "",
-  skillstack: { skill1: "", skill2: "", skill3: "", skill4: "" }});
+  const { updateSelectedProject } = CurrProject();
 
   const handleClick = async () => {
-    console.log("props ", props.image);
-    setImggg((imggg) => ({ ...imggg, ...props.data }));
-    console.log("the state :", imggg);
-    overview = { ...imggg };
-    updateSelectedProject(props.data)
+    updateSelectedProject(props.data);
   };
 
   useEffect(() => {
