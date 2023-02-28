@@ -4,8 +4,10 @@ import ProjectOverview from "./Components/ProjectOverview";
 import FrontPage from "./Components/FrontPage";
 import { Route, Routes } from "react-router-dom";
 import HashLoader from "react-spinners/HashLoader";
+import { CurrentProjectProvider } from "./Context/CurrentProject";
 function App() {
   const [loading, setLoading] = useState(true);
+  const [items, setItems]=useState({})
 
   useEffect(() => {
     setLoading(true);
@@ -29,10 +31,13 @@ function App() {
     </div>
     
     :(<div>
+      <CurrentProjectProvider>
+
       <Routes>
         <Route path="/" element={<FrontPage />} />
         <Route path="/project" element={<ProjectOverview />} />
       </Routes>
+      </CurrentProjectProvider>
 
       <Footer />
     </div>)}

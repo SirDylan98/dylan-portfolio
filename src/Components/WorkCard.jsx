@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-
+import {CurrProject}  from '../Context/CurrentProject'
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 import AOS from "aos";
@@ -17,6 +17,7 @@ export let overview = {
 };
 
 export default function WorkCard(props) {
+  const {updateSelectedProject}=CurrProject()
   console.log('this is the props Data ',props.data)
   const [imggg, setImggg] = useState({   image: "",
   demolink: "",
@@ -30,6 +31,7 @@ export default function WorkCard(props) {
     setImggg((imggg) => ({ ...imggg, ...props.data }));
     console.log("the state :", imggg);
     overview = { ...imggg };
+    updateSelectedProject(props.data)
   };
 
   useEffect(() => {

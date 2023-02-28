@@ -141,9 +141,9 @@ export default function Portfolio() {
           {/* card item */}
 
           <WorkCard data={datanasa} />
-          <WorkCard data={datapolice} />
           <WorkCard data={datacryto} />
           <WorkCard data={dataneflix} />
+          <WorkCard data={datapolice} />
           <WorkCard data={datazumia} />
           <WorkCard data={dataping} />
         </div>
